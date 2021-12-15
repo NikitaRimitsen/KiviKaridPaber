@@ -234,7 +234,7 @@ namespace PaberRockKamen
             else if (randombot == 1 && rdb2.Checked == true || randombot == 2 && rdb3.Checked == true || randombot == 3 && rdb.Checked == true)
             {
                 scetcikbot++;
-                string podcetbot = scetcikcel.ToString();
+                string podcetbot = scetcikbot.ToString();
 
                 lbl2.Text = "";
                 lbl2.Text = podcetbot;
