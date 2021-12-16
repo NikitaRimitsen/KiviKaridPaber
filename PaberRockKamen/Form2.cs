@@ -214,7 +214,7 @@ namespace PaberRockKamen
 
 
 
-                    var answer = MessageBox.Show("Nimi võita. Restart?", "Tulemus", MessageBoxButtons.YesNo);
+                    var answer = MessageBox.Show(lbl4.Text + " võita. Restart?", "Tulemus", MessageBoxButtons.YesNo);
                     if (answer == DialogResult.Yes)
                     {
                         Form2 form2 = new Form2();
